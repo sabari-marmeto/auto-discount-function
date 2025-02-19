@@ -1,0 +1,13 @@
+query RunInput {
+  cart {
+    lines {
+      id
+      quantity
+      cost {
+        totalAmount {
+          amount
+        }
+      }
+    }
+  }
+}
